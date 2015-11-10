@@ -18,7 +18,7 @@ function isSosu(num) {
 	var flag = true;
 	for ( i = 2 ; i < num ; i++ ) {
 
-		if ( i % 2 != 0 && num % i == 0 )
+		if ( num % 2 != 0 && num % i == 0 )
 			return false;
 	}
 	return flag;
