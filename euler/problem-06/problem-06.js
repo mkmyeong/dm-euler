@@ -28,3 +28,17 @@ console.log(squareSum);
 console.log(sumSquare);
 console.log(sumSquare - squareSum);
 console.log(sumSquare - squareSum);
+     
+var arr = ["a", "b", "c"];
+var str = JSON.stringify(arr);
+
+console.log("str = "+str);
+
+var newArr = JSON.parse(str);
+
+console.log("newArr = " + newArr);
+
+while(newArr.length > 0){
+	console.log("newArr = " + newArr.pop() + "<br/>");
+}
+
